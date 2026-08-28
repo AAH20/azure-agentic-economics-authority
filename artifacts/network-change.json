@@ -1,0 +1,70 @@
+[
+  {
+    "scenario": "Agentic network change risk review",
+    "deployment": "azure",
+    "unit_cost": 0.25355333333333335,
+    "monthly_cost": 608.528,
+    "monthly_revenue": 28800,
+    "monthly_labor_value": 77490.0,
+    "monthly_risk_value": 302399.99999999994,
+    "monthly_net_value_before_risk": 105681.472,
+    "monthly_net_value": 408081.47199999995,
+    "operating_roi": 173.66739410511923,
+    "risk_adjusted_roi": 670.6042647174821,
+    "payback_months": 0.05391080337996821,
+    "gross_margin": 0.9788705555555556,
+    "release_decision": "PROMOTE",
+    "decision_reasons": [
+      "economic and risk policies satisfied"
+    ],
+    "assumptions": {
+      "model": {
+        "input_tokens": 24000,
+        "output_tokens": 3200,
+        "input_usd_per_million": 0.4,
+        "output_usd_per_million": 1.6
+      },
+      "compute_usd": 0.006,
+      "retrieval_usd": 0.009,
+      "observability_usd": 0.006,
+      "storage_usd": 0.001,
+      "network_usd": 0.0005,
+      "tool_usd": 0.008,
+      "monthly_fixed_usd": 500
+    }
+  },
+  {
+    "scenario": "Agentic network change risk review",
+    "deployment": "on_prem",
+    "unit_cost": 0.8726869444444444,
+    "monthly_cost": 2094.4486666666667,
+    "monthly_revenue": 28800,
+    "monthly_labor_value": 77490.0,
+    "monthly_risk_value": 302399.99999999994,
+    "monthly_net_value_before_risk": 104195.55133333334,
+    "monthly_net_value": 406595.55133333325,
+    "operating_roi": 49.748438809513274,
+    "risk_adjusted_roi": 194.13011061303956,
+    "payback_months": 0.05410782269470544,
+    "gross_margin": 0.9272760879629629,
+    "release_decision": "PROMOTE",
+    "decision_reasons": [
+      "economic and risk policies satisfied"
+    ],
+    "assumptions": {
+      "hardware_capex": 92000,
+      "residual_value": 9000,
+      "useful_life_months": 36,
+      "monthly_maintenance": 900,
+      "monthly_rack_network": 700,
+      "monthly_ops_labor": 2800,
+      "average_kw": 1.8,
+      "pue": 1.5,
+      "energy_usd_per_kwh": 0.14,
+      "monthly_capacity_units": 85000,
+      "allocation_floor_fraction": 0.3,
+      "calculated_monthly_tco": 6981.495555555555,
+      "allocated_monthly_floor": 2094.4486666666667
+    }
+  }
+]

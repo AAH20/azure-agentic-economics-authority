@@ -1,0 +1,70 @@
+[
+  {
+    "scenario": "ISO 27001 and ISO 42001 evidence automation",
+    "deployment": "azure",
+    "unit_cost": 0.4069711111111111,
+    "monthly_cost": 732.548,
+    "monthly_revenue": 14400,
+    "monthly_labor_value": 41850.00000000001,
+    "monthly_risk_value": 86400.0,
+    "monthly_net_value_before_risk": 55517.452000000005,
+    "monthly_net_value": 141917.452,
+    "operating_roi": 75.78677711221654,
+    "risk_adjusted_roi": 193.73126675658114,
+    "payback_months": 0.2113904919882581,
+    "gross_margin": 0.949128611111111,
+    "release_decision": "PROMOTE",
+    "decision_reasons": [
+      "economic and risk policies satisfied"
+    ],
+    "assumptions": {
+      "model": {
+        "input_tokens": 18000,
+        "output_tokens": 2600,
+        "input_usd_per_million": 0.4,
+        "output_usd_per_million": 1.6
+      },
+      "compute_usd": 0.004,
+      "retrieval_usd": 0.012,
+      "observability_usd": 0.006,
+      "storage_usd": 0.002,
+      "network_usd": 0.0005,
+      "tool_usd": 0.01,
+      "monthly_fixed_usd": 650
+    }
+  },
+  {
+    "scenario": "ISO 27001 and ISO 42001 evidence automation",
+    "deployment": "on_prem",
+    "unit_cost": 0.9696521604938271,
+    "monthly_cost": 1745.3738888888888,
+    "monthly_revenue": 14400,
+    "monthly_labor_value": 41850.00000000001,
+    "monthly_risk_value": 86400.0,
+    "monthly_net_value_before_risk": 54504.626111111116,
+    "monthly_net_value": 140904.6261111111,
+    "operating_roi": 31.22805174185856,
+    "risk_adjusted_roi": 80.7303392173533,
+    "payback_months": 0.2129099720000913,
+    "gross_margin": 0.8787934799382716,
+    "release_decision": "PROMOTE",
+    "decision_reasons": [
+      "economic and risk policies satisfied"
+    ],
+    "assumptions": {
+      "hardware_capex": 92000,
+      "residual_value": 9000,
+      "useful_life_months": 36,
+      "monthly_maintenance": 900,
+      "monthly_rack_network": 700,
+      "monthly_ops_labor": 2800,
+      "average_kw": 1.8,
+      "pue": 1.5,
+      "energy_usd_per_kwh": 0.14,
+      "monthly_capacity_units": 60000,
+      "allocation_floor_fraction": 0.25,
+      "calculated_monthly_tco": 6981.495555555555,
+      "allocated_monthly_floor": 1745.3738888888888
+    }
+  }
+]

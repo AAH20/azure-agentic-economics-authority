@@ -1,0 +1,8 @@
+{
+  "name": "SOC alert triage and evidence receipt",
+  "upfront_change_cost": 18000,
+  "value": {"volume_per_month": 12000, "revenue_per_completed_unit": 1.2, "baseline_minutes": 12, "agent_minutes": 3.5, "loaded_labor_usd_per_hour": 55, "labor_capture_rate": 0.55, "baseline_failure_probability": 0.003, "controlled_failure_probability": 0.001, "impact_usd_per_failure": 2500},
+  "azure": {"model": {"input_tokens": 6500, "output_tokens": 900, "input_usd_per_million": 0.4, "output_usd_per_million": 1.6}, "compute_usd": 0.002, "retrieval_usd": 0.0015, "observability_usd": 0.004, "storage_usd": 0.0005, "network_usd": 0.0002, "tool_usd": 0.001, "monthly_fixed_usd": 450},
+  "on_prem": {"hardware_capex": 92000, "residual_value": 9000, "useful_life_months": 36, "monthly_maintenance": 900, "monthly_rack_network": 700, "monthly_ops_labor": 2800, "average_kw": 1.8, "pue": 1.5, "energy_usd_per_kwh": 0.14, "monthly_capacity_units": 400000, "allocation_floor_fraction": 0.35},
+  "release_policy": {"minimum_roi": 2, "minimum_monthly_net_value": 10000, "minimum_risk_reduction": 0.001}
+}

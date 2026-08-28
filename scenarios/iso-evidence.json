@@ -1,0 +1,8 @@
+{
+  "name": "ISO 27001 and ISO 42001 evidence automation",
+  "upfront_change_cost": 30000,
+  "value": {"volume_per_month": 1800, "revenue_per_completed_unit": 8, "baseline_minutes": 42, "agent_minutes": 11, "loaded_labor_usd_per_hour": 75, "labor_capture_rate": 0.6, "baseline_failure_probability": 0.012, "controlled_failure_probability": 0.004, "impact_usd_per_failure": 6000},
+  "azure": {"model": {"input_tokens": 18000, "output_tokens": 2600, "input_usd_per_million": 0.4, "output_usd_per_million": 1.6}, "compute_usd": 0.004, "retrieval_usd": 0.012, "observability_usd": 0.006, "storage_usd": 0.002, "network_usd": 0.0005, "tool_usd": 0.01, "monthly_fixed_usd": 650},
+  "on_prem": {"hardware_capex": 92000, "residual_value": 9000, "useful_life_months": 36, "monthly_maintenance": 900, "monthly_rack_network": 700, "monthly_ops_labor": 2800, "average_kw": 1.8, "pue": 1.5, "energy_usd_per_kwh": 0.14, "monthly_capacity_units": 60000, "allocation_floor_fraction": 0.25},
+  "release_policy": {"minimum_roi": 2, "minimum_monthly_net_value": 8000, "minimum_risk_reduction": 0.005}
+}

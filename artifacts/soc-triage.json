@@ -1,0 +1,70 @@
+[
+  {
+    "scenario": "SOC alert triage and evidence receipt",
+    "deployment": "azure",
+    "unit_cost": 0.05074,
+    "monthly_cost": 608.88,
+    "monthly_revenue": 14400.0,
+    "monthly_labor_value": 51425.00000000001,
+    "monthly_risk_value": 60000.0,
+    "monthly_net_value_before_risk": 65216.12,
+    "monthly_net_value": 125216.12,
+    "operating_roi": 107.10833004861385,
+    "risk_adjusted_roi": 205.6499145972934,
+    "payback_months": 0.1437514594766233,
+    "gross_margin": 0.9577166666666668,
+    "release_decision": "PROMOTE",
+    "decision_reasons": [
+      "economic and risk policies satisfied"
+    ],
+    "assumptions": {
+      "model": {
+        "input_tokens": 6500,
+        "output_tokens": 900,
+        "input_usd_per_million": 0.4,
+        "output_usd_per_million": 1.6
+      },
+      "compute_usd": 0.002,
+      "retrieval_usd": 0.0015,
+      "observability_usd": 0.004,
+      "storage_usd": 0.0005,
+      "network_usd": 0.0002,
+      "tool_usd": 0.001,
+      "monthly_fixed_usd": 450
+    }
+  },
+  {
+    "scenario": "SOC alert triage and evidence receipt",
+    "deployment": "on_prem",
+    "unit_cost": 0.20362695370370368,
+    "monthly_cost": 2443.523444444444,
+    "monthly_revenue": 14400.0,
+    "monthly_labor_value": 51425.00000000001,
+    "monthly_risk_value": 60000.0,
+    "monthly_net_value_before_risk": 63381.47655555556,
+    "monthly_net_value": 123381.47655555556,
+    "operating_roi": 25.938558805178918,
+    "risk_adjusted_roi": 50.493264894214015,
+    "payback_months": 0.145888998109818,
+    "gross_margin": 0.8303108719135803,
+    "release_decision": "PROMOTE",
+    "decision_reasons": [
+      "economic and risk policies satisfied"
+    ],
+    "assumptions": {
+      "hardware_capex": 92000,
+      "residual_value": 9000,
+      "useful_life_months": 36,
+      "monthly_maintenance": 900,
+      "monthly_rack_network": 700,
+      "monthly_ops_labor": 2800,
+      "average_kw": 1.8,
+      "pue": 1.5,
+      "energy_usd_per_kwh": 0.14,
+      "monthly_capacity_units": 400000,
+      "allocation_floor_fraction": 0.35,
+      "calculated_monthly_tco": 6981.495555555555,
+      "allocated_monthly_floor": 2443.523444444444
+    }
+  }
+]

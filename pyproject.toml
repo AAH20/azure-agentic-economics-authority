@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "azure-agentic-economics-authority"
+version = "0.1.0"
+description = "Risk-adjusted unit economics and release authority for Azure and self-hosted agentic workflows"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+[project.scripts]
+agent-econ = "agentic_economics.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

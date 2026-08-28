@@ -1,0 +1,8 @@
+{
+  "name": "Agentic network change risk review",
+  "upfront_change_cost": 22000,
+  "value": {"volume_per_month": 2400, "revenue_per_completed_unit": 12, "baseline_minutes": 55, "agent_minutes": 14, "loaded_labor_usd_per_hour": 105, "labor_capture_rate": 0.45, "baseline_failure_probability": 0.009, "controlled_failure_probability": 0.002, "impact_usd_per_failure": 18000},
+  "azure": {"model": {"input_tokens": 24000, "output_tokens": 3200, "input_usd_per_million": 0.4, "output_usd_per_million": 1.6}, "compute_usd": 0.006, "retrieval_usd": 0.009, "observability_usd": 0.006, "storage_usd": 0.001, "network_usd": 0.0005, "tool_usd": 0.008, "monthly_fixed_usd": 500},
+  "on_prem": {"hardware_capex": 92000, "residual_value": 9000, "useful_life_months": 36, "monthly_maintenance": 900, "monthly_rack_network": 700, "monthly_ops_labor": 2800, "average_kw": 1.8, "pue": 1.5, "energy_usd_per_kwh": 0.14, "monthly_capacity_units": 85000, "allocation_floor_fraction": 0.3},
+  "release_policy": {"minimum_roi": 2, "minimum_monthly_net_value": 15000, "minimum_risk_reduction": 0.005}
+}
